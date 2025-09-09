@@ -1,3 +1,12 @@
+// --------------------------------------------------------------
+// Exceeded Requirements:
+// 1. The Journal 1saves and loads entries in a CSV/quoted format
+//    so the file can be opened directly in Excel without breaking
+//    on commas or quotes inside the text.
+// 2. Added clear comments and helper methods to keep the code
+//    organized and maintainable.
+// --------------------------------------------------------------
+
 using System;
 using System.Collections.Generic;
 
@@ -5,6 +14,7 @@ class Program
 {
     static void Main(string[] args)
     {
+        // List of possible prompts to randomly show to the user
         List<string> prompts = new List<string>
         {
             "Who was the most interesting person I interacted with today?",
@@ -17,6 +27,7 @@ class Program
         Journal journal = new Journal();
         string choice = "";
 
+        // Main menu loop
         while (choice != "5")
         {
             Console.WriteLine("Please select one of the following choices:");
