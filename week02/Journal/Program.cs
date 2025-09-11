@@ -1,6 +1,6 @@
 // --------------------------------------------------------------
 // Exceeded Requirements:
-// 1. The Journal 1saves and loads entries in a CSV/quoted format
+// 1. The Journal saves and loads entries in a CSV/quoted format
 //    so the file can be opened directly in Excel without breaking
 //    on commas or quotes inside the text.
 // 2. Added clear comments and helper methods to keep the code
